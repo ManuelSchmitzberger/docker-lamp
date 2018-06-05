@@ -7,4 +7,13 @@ I use docker-compose as an orchestrator. To run these containers:
 docker-compose up -d
 ```
 
-That's it!
+Refresh
+```
+docker-compose kill
+docker-compose rm -v
+```
+
+Rebuild
+```
+docker-compose build
+```
